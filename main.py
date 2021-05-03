@@ -65,7 +65,7 @@ def generate_completeness(data, noun_dict):
     for idx, val in enumerate(noun_dict):
         if len(val[1]) < len(input_keyword):
             continue
-        elif input_keyword in val[1]:
+        elif input_keyword == val[1][:len(input_keyword)]:
             ranked_list.append(val[0])
                      
         if len(ranked_list) == 3:
