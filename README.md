@@ -38,5 +38,5 @@ python3 main.py
 
 After that, Thie program is implemented as follows:
 
-![]()
+![](https://github.com/hyunyoung2/Hyunyoung2_Auto_complete_keyword/blob/main/auto_completeness.png?raw=true)
 
